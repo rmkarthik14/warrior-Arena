@@ -52,6 +52,6 @@ let GameManager = {
         }
         getHeader.innerHTML = `<p>Choose your move!!</p>`;
         getActions.innerHTML = `<a href="#" class="btn-fight" onclick="PlayerMoves.calcFight()">Attack !!</a>`;
-        getEnemy.innerHTML = '<img src="images/'+ enemy.classType +'.jpg" alt ="Villains" class = "img-avatar"><div><h3>'+enemy.classType+'</h3><p>Health: '+ enemy.health +'</p><p>Mana: '+ enemy.manner +'</p><p>Strength: '+ enemy.strength +'</p><p>Agility: '+ enemy.agility +'</p><p>Speed: '+ enemy.speed+'</p></div>';
+        getEnemy.innerHTML = '<img src="images/' + enemy.classType + '.jpg" alt ="Villains" class = "img-avatar"><div><h3>'+enemy.classType+'</h3><p>Health: '+ enemy.health +'</p><p>Mana: '+ enemy.manner +'</p><p>Strength: '+ enemy.strength +'</p><p>Agility: '+ enemy.agility +'</p><p>Speed: '+ enemy.speed+'</p></div>';
     }   
 }
