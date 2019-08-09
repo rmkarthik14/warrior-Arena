@@ -1,5 +1,5 @@
 let player;
-
+//Player class with the player attributes
 function Player(classType, health, manner, strength, agility, speed){
     this.classType = classType;
     this.health = health;
